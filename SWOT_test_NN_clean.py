@@ -3,7 +3,7 @@
 """
 Created on Fri Jan 31 15:36:39 2025
 
-@author: sarah
+@author: Sarah Asdar
 """
 
 #====================================================================================
@@ -26,15 +26,10 @@ from keras.layers.core import Lambda
 
 from keras.models import Model, load_model
 from keras.callbacks import EarlyStopping,ModelCheckpoint
-#from tensorflow.keras.optimizers import *
-#from tensorflow.keras import regularizers
 from tensorflow.keras.utils import plot_model
 
 import matplotlib
 import matplotlib.pyplot as plt
-#import cartopy.crs as ccrs
-#import cartopy.feature as cfeature
-
 from netCDF4 import Dataset
 import time
 
@@ -47,10 +42,6 @@ sys.path.append('/Users/sarah/Documents/OneDrive - CNR/SWOT/scripts')
 from custom_loss_function import custom_loss_function
 
 tf.compat.v1.disable_eager_execution()
-#tf.compat.v1.enable_eager_execution()
-
-#sys.path.append('/Users/sarah/Documents/OneDrive - CNR/SWOT/scripts/DropBlock-Keras-Implementation')
-#from DropBlock import DropBlock
 #====================================================================================
 
 ##################################################################
